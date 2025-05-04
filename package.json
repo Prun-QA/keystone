@@ -1,0 +1,26 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "A Cypress project configured automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "@faker-js/faker": "^9.7.0",
+    "cypress": "latest",
+    "cypress-xpath": "^2.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "reports/json/results.json"
+    },
+    "html": {
+      "enabled": true,
+      "output": "reports/html/results.html"
+    }
+  }
+}
