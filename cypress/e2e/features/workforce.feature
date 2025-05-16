@@ -9,7 +9,7 @@ Feature: WORKFORCE MANAGEMENT
         Then I should be sign in successfully
         When I click on Workforce Management
 
-    @only
+    
     Scenario: Employee Data Management
         Then I click on Employee Data Management
         Then I create a single Profile
