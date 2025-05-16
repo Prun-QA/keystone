@@ -312,6 +312,8 @@ class configuration {
 
     }
 
+    
+
 
 }
 export default configuration
